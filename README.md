@@ -42,6 +42,10 @@ Other Languages
 ===============
 There exist other projects for other languages to support a prebind. Go googling :)
 
+SSL
+========
+Actually just set CURLOPT_SSL_VERIFYPEER and CURLOPT_SSL_VERIFYHOST is useSSL is false
+
 Be aware
 ========
 This class is in no way feature complete. There may also be bugs. I'd appreciate it if you contribute or submit bug reports.

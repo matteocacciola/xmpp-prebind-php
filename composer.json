@@ -1,5 +1,5 @@
 {
-    "name": "piotr-cz/xmpp-prebind-php",
+    "name": "chandy-chat/xmpp-prebind-php",
     "description": "This class is for prebinding a XMPP Session with PHP.",
     "version": "0.1.0",
     "type": "library",
@@ -7,6 +7,10 @@
     "homepage": "http://jolicode.com",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Matteo Cacciola",
+            "email": "matteo.cacciola@gmail.com"
+        },
         {
             "name": "Michael Weibel"
         },
