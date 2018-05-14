@@ -5,6 +5,7 @@
  *
  * @copyright 2011 Amiado Group AG
  * @author Michael Weibel <michael.weibel@amiadogroup.com>
+ * @author Matteo Cacciola <matteo.cacciola@gmail.com>
  */
 /**
  * FirePHP for debugging
@@ -521,7 +522,7 @@ class XmppPrebind {
 
         // Check if curl failed to get response
         if ($response === false) {
-            throw new XmppPrebindConnectionException('Cannot connect to service');
+            throw new XmppPrebindConnectionException("Cannot connect to service");
         }
 
         curl_close($ch);
