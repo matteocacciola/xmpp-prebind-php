@@ -17,7 +17,7 @@ Usage
  * @param string $jabberHost Jabber Server Host
  * @param string $boshUri    Full URI to the http-bind
  * @param string $resource   Resource identifier
- * @param bool   $useSsl     Use SSL (not working yet, TODO)
+ * @param bool   $useSsl     Use SSL
  * @param bool   $debug      Enable debug
  */
 $xmppPrebind = new XmppPrebind('your-jabber-host.tld', 'http://your-jabber-host/http-bind/', 'Your XMPP Clients resource name', false, false);
